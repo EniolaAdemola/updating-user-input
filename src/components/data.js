@@ -1,6 +1,7 @@
 import React from "react";
 import { IoLogoTwitter } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
+import { SiWebmoney } from "react-icons/si";
 
 export const footerSocials = [
 	{
@@ -12,5 +13,10 @@ export const footerSocials = [
 		id: 2,
 		link: "https://github.com/EniolaAdemola/updating-user-input",
 		icon: <BsGithub />,
+	},
+	{
+		id: 3,
+		link: "https://eniola-ademola.vercel.app",
+		icon: <SiWebmoney />,
 	},
 ];
